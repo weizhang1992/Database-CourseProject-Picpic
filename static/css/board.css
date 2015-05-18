@@ -1,0 +1,335 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:#F0F0F0;
+}
+
+body #update form{
+	width:400px;
+}
+
+body #ta #userinfo{
+	background-color:white;
+	width:700px;
+	 padding: 5px;
+	  border-radius: 10px;
+
+	
+}
+
+body #upload form{
+	width: 400px;
+}
+
+#board-item a button{
+  padding: 1px;
+  width: 250px;
+  height: 380px;
+  border-radius: 5px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fbfefe;
+  font-size: 40pt;
+}
+
+#pin-item button{
+  padding: 0px;
+  width: 280px;
+  height: 300px;
+  border-radius: 5px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fbfefe;
+  font-size: 40pt;
+}
+
+
+
+
+#pin-item button img{
+  
+  width: 290px;
+  height: 255px;
+  
+}
+
+#pin-item button h1{
+  font-size: 20px;
+  padding: 0px;
+  float: left;
+  display: inline;
+  margin: 1px;
+}
+
+#pin-image button{
+  padding: 1px;
+  width: 750px;
+  height: 680px;
+  border-radius: 5px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fbfefe;
+  
+}
+
+
+#pin-image #like{
+  padding: 1px;
+  width: 750px;
+  height: 33px;
+  border-radius: 5px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fbfefe;
+  font-size: 40pt;
+  display: inline;
+}
+
+
+
+#pin-image #like h1{
+font-size: 26px;
+
+  float: right;
+  display: inline;
+  margin: 1px;
+}
+
+#pin-image #like form input{
+float: left;
+
+}
+#pin-image #like #likelike input{
+float: right;
+
+}
+
+#pin-image button img{
+  border-style: outset;
+  width: 750px;
+  height: 635px;
+  
+}
+
+#pin-image button h1{
+  font-size: 25px;
+  padding: 0px;
+  float: left;
+  display: inline;
+  margin: 1px;
+}
+
+#pin-comment{
+  border-style:solid;
+  border-left-color:#F0F0F0;
+    border-right-color:#F0F0F0;
+    border-top-color:#F0F0F0;
+	border-bottom-color:#F0F0F0;
+  padding: 2px;
+  width: 570px;
+  height: 700px; 
+  border-radius: 10px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fbfefe;
+  font-size: 40pt;
+}
+
+#pin-comment #co  h1{
+  float: left;
+  font-size: 20pt;
+}
+#pin-comment #cr  h1{
+  float: left;
+  font-size: 20pt;
+}
+#pin-comment #co form textarea{
+  /*  float: left; */
+   width: 550px;
+  height: 100px; 
+  font-size: 20pt;
+}
+#pin-comment #co form input{
+	float: left;
+  
+ 
+}
+
+#welcomehead {
+	
+	margin: 1px;
+	padding: 1px;
+   /*  display: inline; */
+    height: 35px;
+	
+}
+
+#welcomehead h1{
+	
+	margin: 1px;
+	padding: 1px;
+   /*  display: inline; */
+    width:680px;
+    font-size: 40px;
+    float: left;
+	
+}
+#welcomehead h1 span{
+	
+	margin: 1px;
+	padding: 1px;
+   /*  display: inline; */
+    width:680px;
+        float: left;
+	
+}
+#welcomehead form{
+	
+	margin: 1px;
+	padding: 1px;
+    width: 690px;
+    float:right;
+	
+}
+
+#navbar {
+	border-style: solid;
+	border-left-color:#F0F0F0;
+    border-right-color:#F0F0F0;
+	border-top-color:#F0F0F0;
+	border-bottom-color:#F0F0F0;
+}
+
+#navbar ul li{
+	border-style: solid;
+	border-left-color:#F0F0F0;
+    border-right-color:#F0F0F0;
+    border-top-color:#F0F0F0;
+	border-bottom-color:#F0F0F0;
+}
+#navbar2 ul li{
+	border-top-width: 0px;
+	border-style: solid;
+	border-left-color:#F0F0F0;
+    border-right-color:#F0F0F0;
+    border-top-color:#F0F0F0;
+	border-bottom-color:#F0F0F0;
+	border-bottom-width: #F0F0F0;
+}
+
+#stream1 ul li{
+	
+	border-top-width: 0px;
+	border-style: solid;
+	border-left-color:#F0F0F0;
+    border-right-color:#F0F0F0;
+    border-top-color:#F0F0F0;
+	border-bottom-color:#F0F0F0;
+	border-bottom-width: #F0F0F0;
+}
+
+#stream1 ul.nav li a {
+
+    
+    background-color:PaleVioletRed;
+
+}
+
+#sort #sortbutton input{
+
+    
+    font-size:08px;
+
+}
+#sort #sortbutton select{
+
+    
+    font-size:40px;
+
+}
+
+
+hr
+{
+	size:1px;
+}
+
+body #stream ul li{
+	color:red;
+}
+
+#pinboard {
+  padding: 1px;
+  width: 276px;
+  height: 350px;
+  border-radius: 5px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fbfefe;
+  font-size: 40pt;
+}
+
+#pinboard form #followbutton {
+  
+  width: 280px;
+  border-radius: 5px;
+  background-color: #FFBB1C;
+  font-size: 5pt;
+}
+#pinboard form #followbutton input{
+  
+  width: 280px;
+  border-radius: 5px;
+  background-color: #FFBB1C;
+  font-size: 10pt;
+  font-weight:bold;
+  color:white;
+}
+#pinboard button{
+  padding: 1px;
+  width: 280px;
+  height: 300px;
+  border-radius: 5px;
+  float: left;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fbfefe;
+  font-size: 40pt;
+}
+
+#pinboard button img{
+  border-style: outset;
+  width: 280px;
+  height: 255px;
+  
+}
+
+#pinboard button  h1{
+	
+  font-size: 22px;
+  padding: 0px;
+  float: left;
+  display: inline;
+  margin: 1px;
+}
+
+#pinboard button  #user{
+  font-size: 22px;
+  padding: 0px;
+  float: right;
+  display: inline;
+  margin: 1px;
+}
